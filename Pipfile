@@ -7,7 +7,13 @@ verify_ssl = true
 
 [packages]
 dvc = "*"
-pydrive2 = "*"
+notebook = "*"
+pandas = "*"
+sklearn = "*"
+pyaml = "*"
+scikit-learn = "*"
+scipy = "*"
+PyDrive2 = "*"
 
 [requires]
 python_version = "3.8"
