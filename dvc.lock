@@ -39,14 +39,14 @@ train:
       train.seed: 20170428
   outs:
   - path: model.pkl
-    md5: 1a7aa1ef6afe7d235bb34e3be89de434
+    md5: c4c067076a008802a8adc1881b870dec
 evaluate:
   cmd: python src/evaluate.py model.pkl data/features scores.json prc.json
   deps:
   - path: data/features
     md5: 7fd2f827edc8bd4981b43f878253cdd1.dir
   - path: model.pkl
-    md5: 1a7aa1ef6afe7d235bb34e3be89de434
+    md5: c4c067076a008802a8adc1881b870dec
   - path: src/evaluate.py
     md5: 631fd3f13434edcf4abd56a5b798e8b2
   outs:
