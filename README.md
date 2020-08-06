@@ -7,3 +7,7 @@ git checkout data_versioning
 pipenv install
 pipenv run dvc pull
 ```
+
+Then run the run.ipynb
+
+Then run the test.ipynb
