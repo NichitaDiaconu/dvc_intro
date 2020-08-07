@@ -2,4 +2,4 @@
 
 Each branch has its own demo
 
-Inspired from the DVC documentation: https://dvc.org/doc/use-cases/versioning-data-and-model-files
+Makes heavy use of the DVC documentation: https://dvc.org/doc/use-cases/versioning-data-and-model-files
